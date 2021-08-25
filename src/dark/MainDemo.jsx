@@ -17,6 +17,7 @@ import BrandTwo from "../elements/BrandTwo";
 import Helmet from "../component/common/Helmet";
 
 class MainDemo extends Component{
+    
     render(){
         const PostList = BlogContent.slice(0 , 3);
         return(
@@ -31,13 +32,13 @@ class MainDemo extends Component{
                 {/* End Slider Area   */}
 
                 {/* Start About Area */}
-                <div className="about-area ptb--120 bg_color--1">
+                <div id="about-section" className="about-area ptb--120 bg_color--1">
                     <About />
                 </div>
                 {/* End About Area */}
 
                 {/* Start Service Area  */}
-                <div className="service-area ptb--120 bg_color--5">
+                <div id="service-section" className="service-area ptb--120 bg_color--5">
                    <div className="container">
                         <ServiceTwo />
                    </div>

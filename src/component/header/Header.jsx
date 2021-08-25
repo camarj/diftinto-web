@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import { FiX , FiMenu } from "react-icons/fi";
 
 
@@ -61,8 +62,8 @@ class Header extends Component{
                         <nav className="mainmenunav d-lg-block">
                             <ul className="mainmenu">
                                 <li><Link to="/">Home</Link></li>
-                                <li><Link to="#">About</Link></li>
-                                <li><Link to="#">Service</Link></li>
+                                <li><HashLink smooth to="#about-section">About</HashLink></li>
+                                <li><HashLink smooth to="#service-section">Service</HashLink></li>
                                 <li><Link to="/contact" >Contact</Link></li>
                             </ul>
                         </nav>
