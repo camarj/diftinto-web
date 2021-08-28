@@ -37,15 +37,15 @@ class Header extends Component{
         const { logo, color='default-color' } = this.props;
         let logoUrl;
         if(logo === 'light'){
-            logoUrl = <img src="/assets/images/logo/logo-light.png" alt="Digital Agency" />;
+            logoUrl = <img src="/assets/images/Logo_Web.png" alt="Digital Agency" />;
         }else if(logo === 'dark'){
-            logoUrl = <img src="/assets/images/logo/logo-dark.png" alt="Digital Agency" />;
+            logoUrl = <img src="/assets/images/Logo_Web.png" alt="Digital Agency" />;
         }else if(logo === 'symbol-dark'){
-            logoUrl = <img src="/assets/images/logo/logo-symbol-dark.png" alt="Digital Agency" />;
+            logoUrl = <img src="/assets/images/Logo_Web.png" alt="Digital Agency" />;
         }else if(logo === 'symbol-light'){
-            logoUrl = <img src="/assets/images/logo/logo-symbol-light.png" alt="Digital Agency" />;
+            logoUrl = <img src="/assets/images/Logo_Web.png" alt="Digital Agency" />;
         }else{
-            logoUrl = <img src="/assets/images/logo/logo.png" alt="Digital Agency" />;
+            logoUrl = <img src="/assets/images/Logo_Web.png" alt="Digital Agency" />;
         }
         
         return(
@@ -62,9 +62,9 @@ class Header extends Component{
                         <nav className="mainmenunav d-lg-block">
                             <ul className="mainmenu">
                                 <li><Link to="/">Home</Link></li>
-                                <li><HashLink smooth to="#about-section">About</HashLink></li>
-                                <li><HashLink smooth to="#service-section">Service</HashLink></li>
-                                <li><Link to="/contact" >Contact</Link></li>
+                                <li><HashLink smooth to="#about-section">Nosotros</HashLink></li>
+                                <li><HashLink smooth to="#service-section">Servicios</HashLink></li>
+                                <li><Link to="/contact" >Contacto</Link></li>
                             </ul>
                         </nav>
                         <div className="header-btn">

@@ -5,18 +5,18 @@ import { FiActivity, FiCast, FiMap } from "react-icons/fi";
 const ServiceList = [
     {
         icon: <FiActivity />,
-        title: 'Awarded Design',
-        description: 'There are many variations variations  of passages of Lorem Ipsum available, but the majority have suffered.'
+        title: 'Escuchamos',
+        description: 'En @DIFTINTO el protagonista eres tú.Nuestra forma de trabajo consiste primero en escuchar lo que quieres.'
     },
     {
         icon: <FiCast />,
-        title: 'Design & Creative',
-        description: 'Passages there are many variations variations  of of Lorem Ipsum available, but the majority have suffered.'
+        title: 'Pensamos',
+        description: 'Nuestros anos de experiencia y muchos proyectos exitosos, nos permitirán sugerirte y recomendarte el mejor producto para ti.'
     },
     {
         icon: <FiMap />,
-        title: 'App Development',
-        description: 'Variations There are many variations  of passages of Lorem Ipsum available, but the majority have suffered.'
+        title: 'Entregamos',
+        description: 'Nuestro proceso creativo se materializará en la entrega del producto, de manera profesional, responsable y a tiempo.'
     },
 ]
 class ServiceOne extends Component{

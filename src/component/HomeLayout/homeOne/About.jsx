@@ -4,9 +4,9 @@ import { FiSend } from "react-icons/fi";
 import { Link } from 'react-router-dom';
 class About extends Component{
     render(){
-        let title = 'Refreshingly Unique Company About.',
-        description = 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.',
-        description2 = 'A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences';
+        let title = 'Empresa Creativa Distinta y Diferente.',
+        description = 'DIFTINTO es una empresa de Diseno y Desarrollo de Páginas Webs, Aplicaciones Móviles y Software a Medida, Soluciones Digitales con Analítica de Datos, Inteligencia Artificial, Machine Learning, Deep Learning y Big Data.',
+        description2 = ' DIFTINTO evoca la unión de dos palabras: Distinto y Diferente. La distinción y la diferencia se suceden una a la otra. Ser diferentes es la esencia de DIFTINTO que no busca más que... alcanzar las estrellas.';
 
         return(
             <React.Fragment>
@@ -15,7 +15,7 @@ class About extends Component{
                         <div className="row row--35 align-items-center">
                             <div className="col-lg-5 col-md-12">
                                 <div className="thumbnail">
-                                    <img className="w-100" src="/assets/images/about/about-1.png" alt="About Images"/>
+                                    <img className="w-100" src="/assets/images/about.png" alt="About Images"/>
                                 </div>
                             </div>
                             <div className="col-lg-7 col-md-12">
@@ -28,7 +28,7 @@ class About extends Component{
                                         <p className="description">{description}</p>
                                         <p className="description">{description2}</p>
                                         <div className="purchase-btn">
-                                            <Link className="btn-transparent" to="/">PURCHASE IMROZ</Link>
+                                            <Link className="btn-transparent" to="/contact">Contacto con DIFTINTO</Link>
                                         </div>
                                     </div>
                                     

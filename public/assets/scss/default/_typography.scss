@@ -54,6 +54,8 @@ hr {
 	margin-bottom: 15px;
 }
 
+
+
 h1,
 h2,
 h3,
@@ -70,6 +72,13 @@ h6,
 	line-height: 1.4074;
 	color: $heading-color;
 }
+
+// Color personalizado pagina de contacto
+.title-h2 {
+	color: white;
+	font-size: 50px;
+}
+
 h1,
 .h1 {
 	font-size: var(--h1);

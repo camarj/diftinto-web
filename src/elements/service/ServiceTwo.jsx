@@ -4,41 +4,56 @@ import { FiCast , FiLayers , FiUsers , FiMonitor ,FiChevronUp, FiMail, FiCopy } 
 const ServiceList = [
     {
         icon: <FiCast />,
-        title: 'Business Stratagy',
-        description: 'Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut.'
+        title: 'Responsive Design',
+        description: 'Un sitio Web hoy se debe ver en todos los equipos y ser visitado de todos lados.'
     },
     {
         icon: <FiLayers />,
         title: 'Website Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        description: 'Creamos sitios Webs personalizados para vos, optimizando tiempos y costos.'
     },
     {
         icon: <FiUsers />,
-        title: 'Marketing & Reporting',
-        description: 'Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut.'
+        title: 'SEO',
+        description: 'Desarrollos preparados para generar tráfico con optimización de buscadores.'
     },
     {
         icon: <FiMonitor />,
-        title: 'Mobile Development',
-        description: 'Desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+        title: 'Apps Development',
+        description: 'WebApps HTML5, iOs, Android y/o WebApp/PWA. Lo que necesitas, DIFTINTO lo crea.'
     },
     {
         icon: <FiMail />,
-        title: 'Email Marketing',
-        description: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in.'
+        title: 'Desarrollo de Software',
+        description: 'Software de gestión comercial, operativa, administrativa, contable, entre otras. '
     },
     {
         icon: <FiCopy />,
-        title: 'Copywriting',
-        description: 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for.'
+        title: 'Ultimas Tecnologías',
+        description: 'En DIFTINTO encontrarás siempre la búsqueda constante de mejoras.'
+    },
+    {
+        icon: <FiMonitor />,
+        title: 'Data Science',
+        description: 'Mejorá tu organización, predecí tendencias y anticipate al comportamiento de tus clientes.'
+    },
+    {
+        icon: <FiMail />,
+        title: 'Analytics / Big Data',
+        description: 'Capacidad analítica como ventaja competitiva: Hacia una organización con mejor IQ.'
+    },
+    {
+        icon: <FiCopy />,
+        title: 'Artificial Intelligence',
+        description: 'Convertí IA en parte integral de tu proceso de trabajo y verás más claramente sus beneficios.'
     },
 ]
 
 class ServiceTwo extends Component{
     render(){
-        let title = 'Services provide for you.',
-        description = 'There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration.',
-        subtitle= 'What we can do for you';
+        let title = 'Qué Podemos Hacer por tí',
+        description = 'Tenemos amplia experiencia, ofreciendo soluciones tecnológicas de vanguardia, para muchos clientes internacionales dentro de una amplia gama de industrias,',
+        subtitle= 'Qué Podemos Hacer por ti';
         return(
             <React.Fragment>
                 <div className="container">
@@ -57,7 +72,7 @@ class ServiceTwo extends Component{
                             <div className="row service-main-wrapper">
                                 {ServiceList.map( (val , i) => (
                                     <div className="col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
-                                        <a href="/service-details">
+                                        <a href="#">
                                             <div className="service service__style--2 text-left">
                                                 <div className="icon">
                                                     {val.icon}

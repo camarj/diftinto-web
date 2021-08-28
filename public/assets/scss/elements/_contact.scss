@@ -40,7 +40,7 @@
     padding: 40px;
     border-radius: 10px;
     padding-top: 40px;
-    background: #fff;
+    background: #0C0C0C;
     padding-bottom: 50px;
     box-shadow: 0 0 20px rgba(0,0,0,0.05);
     transition: 0.3s;
@@ -56,12 +56,13 @@
             &.title {
                 font-size: 18px;
                 font-weight: 700;
+                color: var(--color-gray);
             }
         }
         p {
             font-size: 18px;
             margin-bottom: 0;
-            color: rgba(29, 29, 36, 0.75);
+            color: var(--color-gray);
             @media #{$lg-layout} {
                 font-size: 16px;
             }
@@ -86,7 +87,7 @@
                 }
             }
             a {
-                color: rgba(29, 29, 36, 0.75);
+                color: var(--color-gray);
                 @extend %transition;
                 &:hover {
                     color: var(--color-primary);

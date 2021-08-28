@@ -16,6 +16,8 @@ import BlogContent from "../elements/blog/BlogContent";
 import BrandTwo from "../elements/BrandTwo";
 import Helmet from "../component/common/Helmet";
 
+
+
 class MainDemo extends Component{
     
     render(){
@@ -46,11 +48,32 @@ class MainDemo extends Component{
                 {/* End Service Area  */}
 
                 {/* Start Portfolio Area */}
-                <div className="portfolio-area ptb--120 bg_color--1">
+                {/* <div className="portfolio-area ptb--120 bg_color--1">
                     <div className="portfolio-sacousel-inner mb--55">
                         <Portfolio />
                     </div>
+                </div> */}
+                
+                {/* Start Finding Us Area  */}
+                <div className="rn-finding-us-area attacment-fixed rn-finding-us ptb--120 bg_color--1 bg_image bg_image--18" data-black-overlay="5">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-8 offset-lg-2">
+                                <div className="inner">
+                                    <div className="content-wrapper">
+                                        <div className="content">
+                                            <h4 className="theme-gradient">Contacta con DIFTINTO</h4>
+                                            <p>Años de experiencia, profesionales de élite y muchos proyectos exitosos, esperan entusiasmados poder ayudarte a concretar tus deseos y productos digitales.</p>
+                                            <a className="btn-default" href="/contact">Contacto</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                {/* End Finding Us Area  */}
+                
                 {/* End Portfolio Area */}
 
                 {/* Start CounterUp Area */}
@@ -59,9 +82,9 @@ class MainDemo extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title text-center">
-                                    <span className="subtitle">Experts growts</span>
-                                    <h2 className="title">Our Company Growth</h2>
-                                    <p className="description">We have grown strength over the past 20 years.</p>
+                                    <span className="subtitle">Nuestro Crecimiento</span>
+                                    <h2 className="title">Crecimiento de Nuestra Empresa</h2>
+                                    <p className="description">Cada Año que pasa fortalecemos Nuestro Crecimiento con un Equipo de Ganadores</p>
                                 </div>
                             </div>
                         </div>
@@ -71,15 +94,15 @@ class MainDemo extends Component{
                 {/* End CounterUp Area */}
 
                 {/* Start Testimonial Area */}
-                <div className="rn-testimonial-area bg_color--1 ptb--120">
+                {/* <div className="rn-testimonial-area bg_color--1 ptb--120">
                     <div className="container">
                         <Testimonial />
                     </div>
-                </div>
+                </div> */}
                 {/* End Testimonial Area */}
 
                 {/* Start Blog Area */}
-                <div className="rn-blog-area ptb--120 bg_color--5">
+                {/* <div className="rn-blog-area ptb--120 bg_color--5">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12 col-md-12 col-sm-12 col-12">
@@ -120,7 +143,7 @@ class MainDemo extends Component{
                             ))}
                         </div>    
                     </div>    
-                </div>
+                </div> */}
                 {/* End Blog Area */}
 
                 {/* Start Brand Area */}
@@ -129,8 +152,8 @@ class MainDemo extends Component{
                         <div className="row">
                             <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                                 <div className="section-title text-center mb--30">
-                                    <span className="subtitle">Top clients</span>
-                                    <h2 className="title">We worked with brands.</h2>
+                                    <span className="subtitle">Nuestro Stack Tecnológico</span>
+                                    <h2 className="title">Usamos Tecnología de Elite</h2>
                                 </div>
                             </div>
                         </div>

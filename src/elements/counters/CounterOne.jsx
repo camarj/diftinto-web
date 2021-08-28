@@ -18,25 +18,25 @@ class CounterOne extends Component{
             {
                 icon: <FiHeart />,
                 countNum : 199,
-                countTitle: 'Staticfied Customers',
+                countTitle: 'Clientes Satisfechos',
             },
 
             {
                 icon: <FiClock />,
                 countNum : 575,
-                countTitle: 'Days Of Operation',
+                countTitle: 'Días Operando',
             },
 
             {
                 icon: <FiCheckCircle />,
                 countNum : 49,
-                countTitle: 'Complete Project',
+                countTitle: 'Proyectos Completados',
             },
 
             {
                 icon: <FiAward />,
                 countNum : 55,
-                countTitle: 'Win Awards',
+                countTitle: 'Sitios Optimizados',
             }
         ];
 

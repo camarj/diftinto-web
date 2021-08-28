@@ -6,31 +6,31 @@ class BrandTwo extends Component{
             <React.Fragment>
                 <ul className="brand-style-2">
                     <li>
-                        <img src="/assets/images/brand/brand-01.png" alt="Logo Images"/>
+                        <img src="/assets/images/1.png" alt="Logo Images"/>
                     </li>
                     <li>
-                        <img src="/assets/images/brand/brand-02.png" alt="Logo Images"/>
+                        <img src="/assets/images/2.png" alt="Logo Images"/>
                     </li>
                     <li>
-                        <img src="/assets/images/brand/brand-03.png" alt="Logo Images"/>
+                        <img src="/assets/images/3.png" alt="Logo Images"/>
                     </li>
                     <li>
-                        <img src="/assets/images/brand/brand-05.png" alt="Logo Images"/>
+                        <img src="/assets/images/4.png" alt="Logo Images"/>
                     </li>
                     <li>
-                        <img src="/assets/images/brand/brand-04.png" alt="Logo Images"/>
+                        <img src="/assets/images/5.png" alt="Logo Images"/>
                     </li>
                     <li>
-                        <img src="/assets/images/brand/brand-08.png" alt="Logo Images"/>
+                        <img src="/assets/images/6.png" alt="Logo Images"/>
                     </li>
                     <li>
-                        <img src="/assets/images/brand/brand-06.png" alt="Logo Images"/>
+                        <img src="/assets/images/7.png" alt="Logo Images"/>
                     </li>
                     <li>
-                        <img src="/assets/images/brand/brand-09.png" alt="Logo Images"/>
+                        <img src="/assets/images/8.png" alt="Logo Images"/>
                     </li>
                     <li>
-                        <img src="/assets/images/brand/brand-07.png" alt="Logo Images"/>
+                        <img src="/assets/images/9.png" alt="Logo Images"/>
                     </li>
                 </ul>
             </React.Fragment>
