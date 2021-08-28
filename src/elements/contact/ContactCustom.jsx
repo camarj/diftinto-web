@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import {Alert} from "react-bootstrap"
+
 export const ContactCustom = () => {
 
     const [rnName, setRnName] = useState('')
@@ -7,10 +9,13 @@ export const ContactCustom = () => {
     const [rnSubject, setRnSubject] = useState('')
     const [rnMessage, setRnMessage] = useState('')
 
+    const [enviado, setEnviado] = useState(false);
+    const [error, setError] = useState(false);
+
     const submitRequest = async (e) => {
         e.preventDefault();
         console.log({ rnName, rnEmail, rnSubject, rnMessage });
-        const response = await fetch("/access", { 
+        const response = await fetch("http://localhost:3030/send-email", { 
           method: 'POST', 
           headers: { 
               'Content-type': 'application/json'
@@ -20,10 +25,13 @@ export const ContactCustom = () => {
     
         const resData = await response.json(); 
         if (resData.status === 'success'){
-          alert("Message Sent."); 
-          this.resetForm()
+          setEnviado(true)
+          setRnName('')
+          setRnEmail('')
+          setRnSubject('')
+          setRnMessage('')
       }else if(resData.status === 'fail'){
-          alert("Message failed to send.")
+          setError(true)
       }
 
     }
@@ -47,7 +55,8 @@ export const ContactCustom = () => {
                                 </div>
                             </div>
                             <div className="form-wrapper">
-                                <form onSubmit={submitRequest}>
+                            {enviado && <Alert variant="success">Mensaje enviado</Alert>}
+                                <form onSubmit={submitRequest}>                       
                                     <label htmlFor="item01">
                                         <input
                                             type="text"
@@ -96,7 +105,7 @@ export const ContactCustom = () => {
                         </div>
                         <div className="col-lg-6 order-1 order-lg-2">
                             <div className="thumbnail mb_md--30 mb_sm--30">
-                                <img src="/assets/images/about/about-12.jpg" alt="trydo"/>
+                                <img src="/assets/images/about/about-12.png" alt="trydo"/>
                             </div>
                         </div>
                     </div>

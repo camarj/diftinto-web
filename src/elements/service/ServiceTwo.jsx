@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import { FiCast , FiLayers , FiUsers , FiMonitor ,FiChevronUp, FiMail, FiCopy } from "react-icons/fi";
+import { FiLayers , FiMonitor , FiCopy, FiSmartphone,FiTrendingUp, FiTerminal,FiDatabase,FiActivity,FiCpu } from "react-icons/fi";
 
 const ServiceList = [
     {
-        icon: <FiCast />,
+        icon: <FiSmartphone />,
         title: 'Responsive Design',
         description: 'Un sitio Web hoy se debe ver en todos los equipos y ser visitado de todos lados.'
     },
@@ -13,7 +13,7 @@ const ServiceList = [
         description: 'Creamos sitios Webs personalizados para ti, optimizando tiempos y costos.'
     },
     {
-        icon: <FiUsers />,
+        icon: <FiActivity />,
         title: 'SEO',
         description: 'Desarrollos preparados para generar tráfico con optimización de buscadores.'
     },
@@ -23,7 +23,7 @@ const ServiceList = [
         description: 'WebApps HTML5, iOs, Android y/o WebApp/PWA. Lo que necesitas, DIFTINTO lo crea.'
     },
     {
-        icon: <FiMail />,
+        icon: <FiTerminal />,
         title: 'Desarrollo de Software',
         description: 'Software de gestión comercial, operativa, administrativa, contable, entre otras. '
     },
@@ -33,17 +33,17 @@ const ServiceList = [
         description: 'En DIFTINTO encontrarás siempre la búsqueda constante de mejoras.'
     },
     {
-        icon: <FiMonitor />,
+        icon: <FiTrendingUp />,
         title: 'Data Science',
         description: 'Mejorá tu organización, predecir tendencias y anticipate al comportamiento de tus clientes.'
     },
     {
-        icon: <FiMail />,
+        icon: <FiDatabase />,
         title: 'Analytics / Big Data',
         description: 'Capacidad analítica como ventaja competitiva: Hacia una organización con mejor IQ.'
     },
     {
-        icon: <FiCopy />,
+        icon: <FiCpu />,
         title: 'Artificial Intelligence',
         description: 'Convertí IA en parte integral de tu proceso de trabajo y verás más claramente sus beneficios.'
     },
