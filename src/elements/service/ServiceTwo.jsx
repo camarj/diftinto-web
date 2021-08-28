@@ -10,7 +10,7 @@ const ServiceList = [
     {
         icon: <FiLayers />,
         title: 'Website Development',
-        description: 'Creamos sitios Webs personalizados para vos, optimizando tiempos y costos.'
+        description: 'Creamos sitios Webs personalizados para ti, optimizando tiempos y costos.'
     },
     {
         icon: <FiUsers />,
@@ -35,7 +35,7 @@ const ServiceList = [
     {
         icon: <FiMonitor />,
         title: 'Data Science',
-        description: 'Mejorá tu organización, predecí tendencias y anticipate al comportamiento de tus clientes.'
+        description: 'Mejorá tu organización, predecir tendencias y anticipate al comportamiento de tus clientes.'
     },
     {
         icon: <FiMail />,

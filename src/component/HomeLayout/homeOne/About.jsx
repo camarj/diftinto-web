@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 class About extends Component{
     render(){
         let title = 'Empresa Creativa Distinta y Diferente.',
-        description = 'DIFTINTO es una empresa de Diseno y Desarrollo de Páginas Webs, Aplicaciones Móviles y Software a Medida, Soluciones Digitales con Analítica de Datos, Inteligencia Artificial, Machine Learning, Deep Learning y Big Data.',
+        description = 'DIFTINTO es una empresa de Diseño y Desarrollo de Páginas Webs, Aplicaciones Móviles y Software a Medida, Soluciones Digitales con Analítica de Datos, Inteligencia Artificial, Machine Learning, Deep Learning y Big Data.',
         description2 = ' DIFTINTO evoca la unión de dos palabras: Distinto y Diferente. La distinción y la diferencia se suceden una a la otra. Ser diferentes es la esencia de DIFTINTO que no busca más que... alcanzar las estrellas.';
 
         return(

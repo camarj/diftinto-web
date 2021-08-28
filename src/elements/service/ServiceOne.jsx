@@ -6,12 +6,12 @@ const ServiceList = [
     {
         icon: <FiActivity />,
         title: 'Escuchamos',
-        description: 'En @DIFTINTO el protagonista eres tú.Nuestra forma de trabajo consiste primero en escuchar lo que quieres.'
+        description: 'En @DIFTINTO el protagonista eres tú. Nuestra forma de trabajo consiste primero en escuchar lo que quieres.'
     },
     {
         icon: <FiCast />,
         title: 'Pensamos',
-        description: 'Nuestros anos de experiencia y muchos proyectos exitosos, nos permitirán sugerirte y recomendarte el mejor producto para ti.'
+        description: 'Nuestros años de experiencia y muchos proyectos exitosos, nos permitirán sugerirte y recomendarte el mejor producto para ti.'
     },
     {
         icon: <FiMap />,
