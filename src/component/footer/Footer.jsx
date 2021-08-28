@@ -83,7 +83,9 @@ class Footer extends Component{
                                 {/* Start Single Widget  */}
                                 <div className="col-lg-3 col-md-6 col-sm-6 col-12 mt_md--40 mt_sm--40">
                                     <div className="footer-link">
-                                        <h4>Say Hello</h4>
+                                        <h4>
+                                            Salúdanos
+                                        </h4>
                                         <ul className="ft-link">
                                             <li>Email: <a href="mailto:admin@example.com">info@diftinto.com</a></li>
                                             <li>Asistente Virtual</li>
