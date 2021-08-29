@@ -34,8 +34,8 @@ class Contact extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
-                                    <h2 className="title theme-gradient">Cntact With Us</h2>
-                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
+                                    <h2 className="title theme-gradient">Contacta con Nosotros</h2>
+                                    <p>En DIFTINTO Encontrarás Profesionales de Élite para Tu Proyecto. </p>
                                 </div>
                             </div>
                         </div>
@@ -50,9 +50,9 @@ class Contact extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title mb--30 text-center">
-                                    <span className="subtitle">Our contact address</span>
-                                    <h2 className="title-h2">Quick Contact Address</h2>
-                                    <p className="description">There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration.</p>
+                                    <span className="subtitle">Contactarnos por:</span>
+                                    <h2 className="title-h2">Formas de Contacto Rápidas</h2>
+                                    <p className="description">Déjanos Ser Parte de tus Sueños, Evoluciona y Trasciende con Nosotros.<br /> DIFTINTO Llevará al Siguiente Nivel Tus Ideas.</p>
                                 </div>
                             </div>
                         </div>
@@ -65,9 +65,9 @@ class Contact extends Component{
                                         <FiHeadphones />
                                     </div>
                                     <div className="inner">
-                                        <h4 className="title">Contact Phone Number</h4>
-                                        <p><a href="tel:+444 555 666 777">+444 555 666 777</a></p>
-                                        <p><a href="tel:+222 222 222 333">+222 222 222 333</a></p>
+                                        <h4 className="title">Número de Contacto Telefónico</h4>
+                                        <p><a href="tel:+444 555 666 777">+593 096 321 61 72</a></p>
+                                        <br/>
                                     </div>
                                 </div>
                             </div>
@@ -80,9 +80,10 @@ class Contact extends Component{
                                         <FiMail />
                                     </div>
                                     <div className="inner">
-                                        <h4 className="title">Our Email Address</h4>
-                                        <p><a href="mailto:admin@gmail.com">admin@gmail.com</a></p>
-                                        <p><a href="mailto:example@gmail.com">example@gmail.com</a></p>
+                                        <h4 className="title">Nuestro Dirección de Correo</h4>
+                                        <p><a href="mailto:admin@gmail.com">info@diftinto.com</a></p>
+                                        <br/>
+                                        {/* <p><a href="mailto:example@gmail.com">example@gmail.com</a></p> */}
                                     </div>
                                 </div>
                             </div>
@@ -95,8 +96,8 @@ class Contact extends Component{
                                         <FiMapPin />
                                     </div>
                                     <div className="inner">
-                                        <h4 className="title">Our Location</h4>
-                                        <p>5678 Bangla Main Road, cities 580 <br /> GBnagla, example 54786</p>
+                                        <h4 className="title">Dirección</h4>
+                                        <p>4602 NW 16sth ST <br /> OPA LOCKA FL 33054</p>
                                     </div>
                                 </div>
                             </div>

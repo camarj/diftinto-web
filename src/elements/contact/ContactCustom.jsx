@@ -35,7 +35,6 @@ export const ContactCustom = () => {
       }
 
     }
-    
 
     return (
         <div className="contact-form--1">
@@ -43,16 +42,16 @@ export const ContactCustom = () => {
                     <div className="row row--35 align-items-start">
                         <div className="col-lg-6 order-2 order-lg-1">
                             <div className="section-title text-left mb--50">
-                                <span className="subtitle">Let's Say Hi</span>
-                                <h2 className="title">Contact With Us.</h2>
-                                <div className="im_address">
+                                <span className="subtitle">Te Saludamos</span>
+                                <h2 className="title">Contacta con Nosotros</h2>
+                                {/* <div className="im_address">
                                     <span>Call us directly:</span>
                                     <a className="link im-hover" href="phone">+111 (0)55 5869 8976</a>
                                 </div>
                                 <div className="im_address mt--5">
                                     <span>Contact Email:</span>
                                     <a className="link im-hover" href="email">example@gmail.com</a>
-                                </div>
+                                </div> */}
                             </div>
                             <div className="form-wrapper">
                             {enviado && <Alert variant="success">Mensaje enviado</Alert>}
@@ -64,7 +63,7 @@ export const ContactCustom = () => {
                                             id="item01"
                                             value={rnName}
                                             onChange={(e)=> setRnName(e.target.value)}
-                                            placeholder="Your Name *"
+                                            placeholder="Tu Nombre *"
                                         />
                                     </label>
 
@@ -75,7 +74,7 @@ export const ContactCustom = () => {
                                             id="item02"
                                             value={rnEmail}
                                             onChange={(e)=> setRnEmail(e.target.value)}
-                                            placeholder="Your email *"
+                                            placeholder="Tu Email *"
                                         />
                                     </label>
 
@@ -86,7 +85,7 @@ export const ContactCustom = () => {
                                             id="item03"
                                             value={rnSubject}
                                             onChange={(e)=> setRnSubject(e.target.value)}
-                                            placeholder="Write a Subject"
+                                            placeholder="Asunto "
                                         />
                                     </label>
                                     <label htmlFor="item04">
@@ -96,10 +95,10 @@ export const ContactCustom = () => {
                                             name="message"
                                             value={rnMessage}
                                             onChange={(e)=> setRnMessage(e.target.value)}
-                                            placeholder="Your Message"
+                                            placeholder="Tu Mensaje"
                                         />
                                     </label>
-                                    <button className="btn-default" type="submit" value="submit" name="submit" id="mc-embedded-subscribe">Submit Now</button>
+                                    <button className="btn-default" type="submit" value="submit" name="submit" id="mc-embedded-subscribe">Enviar Ahora</button>
                                 </form>
                             </div>
                         </div>

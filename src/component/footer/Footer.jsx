@@ -48,7 +48,7 @@ class Footer extends Component{
                                                 {logoUrl}
                                             </Link>
                                         </div>
-                                        <p>Copyright © 2021 <Link to="/">Diftinto</Link> Construido con creatividad en Latinoamérica Todos los derechos reservados.</p>
+                                        <p>Copyright © 2021 <Link to="/">Diftinto Corp</Link> Construido con Creatividad en Latinoamérica Todos los derechos reservados.</p>
                                     </div>
                                 </div>
                                 
