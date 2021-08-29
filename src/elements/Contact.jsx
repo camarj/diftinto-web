@@ -10,7 +10,7 @@ import ScrollToTop from 'react-scroll-up';
 import { FiHeadphones , FiMail , FiMapPin } from "react-icons/fi";
 
 
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+// const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 
 class Contact extends Component{

@@ -120,9 +120,9 @@ class HeaderFour extends Component{
                             </ul>
                         </nav>
                         <div className="header-btn">
-                            <a className="btn-default btn-border btn-opacity" target="_blank" href="https://themeforest.net/checkout/from_item/31405042?license=regular">
+                            {/* <a className="btn-default btn-border btn-opacity" href="#">
                                 <span>buy now</span>
-                            </a>
+                            </a> */}
                         </div>
                         {/* Start Humberger Menu  */}
                         <div className="humberger-menu d-block d-lg-none pl--20">

@@ -10,7 +10,7 @@ class PageHelmet extends Component{
                     <meta charSet="utf-8" />
                     <title>{this.props.pageTitle} || Agencia IT</title>
                     <meta name="robots" content="noindex, follow" />
-                    <meta name="description" content="Imroz – Multipurpose React Template is a multi-use React template. It is designed to go well with multi-purpose websites. Trydo React Template will create that various landing Template, Creative Agency, And Corporate Website ." />
+                    <meta name="description" content="Desarrollo de Sitios Web | Desarrollo de Software | Data Science | Analytics/Big Data | Artificial Intelligence" />
                     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
                 </Helmet>
             </React.Fragment>
