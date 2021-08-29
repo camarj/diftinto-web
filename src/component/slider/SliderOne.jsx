@@ -11,7 +11,7 @@ class SliderOne extends Component {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="inner">
-                                <h1 className="title theme-gradient">Rockstart Desing Web Developments & AI For You</h1>
+                                <h1 className="title theme-gradient">Rockstart Desing Web Developments & AI Para Ti</h1>
                             </div>
                         </div>
                     </div>

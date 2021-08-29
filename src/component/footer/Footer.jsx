@@ -58,8 +58,8 @@ class Footer extends Component{
                                         <h4>Links</h4>
                                         <ul className="ft-link">
                                         <li><Link to="/">Home</Link></li>
-                                        <li><HashLink smooth to="#about-section">Nosotros</HashLink></li>
-                                        <li><HashLink smooth to="#service-section">Servicios</HashLink></li>
+                                        <li><HashLink smooth to="/#about-section">Nosotros</HashLink></li>
+                                        <li><HashLink smooth to="/#service-section">Servicios</HashLink></li>
                                         <li><Link to="/contact" >Contacto</Link></li>
                                         </ul>
                                     </div>
@@ -71,10 +71,10 @@ class Footer extends Component{
                                     <div className="footer-link">
                                         <h4>Servicios</h4>
                                         <ul className="ft-link">
-                                        <li><HashLink smooth to="#service-section">Web Development</HashLink></li>
-                                        <li><HashLink smooth to="#service-section">Apps Development </HashLink></li>
-                                        <li><HashLink smooth to="#service-section">Analytics / Big Data</HashLink></li>
-                                        <li><HashLink smooth to="#service-section">Artificial Intelligence</HashLink></li>
+                                        <li><HashLink smooth to="/#service-section">Web Development</HashLink></li>
+                                        <li><HashLink smooth to="/#service-section">Apps Development </HashLink></li>
+                                        <li><HashLink smooth to="/#service-section">Analytics / Big Data</HashLink></li>
+                                        <li><HashLink smooth to="/#service-section">Artificial Intelligence</HashLink></li>
                                         </ul>
                                     </div>
                                 </div>

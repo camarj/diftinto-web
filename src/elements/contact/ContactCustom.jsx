@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 
-import {Alert} from "react-bootstrap"
+import {Alert} from "react-bootstrap";
+import ReCAPTCHA from "react-google-recaptcha";
 
 export const ContactCustom = () => {
 
@@ -11,10 +12,25 @@ export const ContactCustom = () => {
 
     const [enviado, setEnviado] = useState(false);
     const [error, setError] = useState(false);
+    const [captchaseleccionado, setCaptchaSeleccionado] = useState(false);
+
+    const captcha = useRef(null);
+
+    const onChange = () => {
+        if(captcha.current.getValue()){
+            setCaptchaSeleccionado(true);
+        }
+    }
 
     const submitRequest = async (e) => {
         e.preventDefault();
-        console.log({ rnName, rnEmail, rnSubject, rnMessage });
+
+        // Validar
+        if (rnName.trim() === '' || rnEmail.trim() === '' || rnSubject.trim() === '' || rnMessage.trim() === '' || captchaseleccionado === false ) {
+            setError(true)
+            return
+        };
+        
         const response = await fetch("http://localhost:3030/send-email", { 
           method: 'POST', 
           headers: { 
@@ -22,17 +38,15 @@ export const ContactCustom = () => {
           }, 
           body: JSON.stringify({rnName, rnEmail, rnSubject, rnMessage}) 
       }); 
-    
-        const resData = await response.json(); 
-        if (resData.status === 'success'){
-          setEnviado(true)
-          setRnName('')
-          setRnEmail('')
-          setRnSubject('')
-          setRnMessage('')
-      }else if(resData.status === 'fail'){
-          setError(true)
-      }
+
+      console.log({ rnName, rnEmail, rnSubject, rnMessage });
+      console.log('Mensaje enviado');
+      setEnviado(true);
+      setError(false);
+      setRnName('');
+      setRnEmail('');
+      setRnSubject('');
+      setRnMessage('');
 
     }
 
@@ -54,8 +68,9 @@ export const ContactCustom = () => {
                                 </div> */}
                             </div>
                             <div className="form-wrapper">
-                            {enviado && <Alert variant="success">Mensaje enviado</Alert>}
                                 <form onSubmit={submitRequest}>                       
+                                    {enviado && <Alert variant="success">Mensaje enviado correctamente muchas gracias!!</Alert>}
+                                    {error && <Alert variant="danger">Todos los campos son necesarios</Alert>}
                                     <label htmlFor="item01">
                                         <input
                                             type="text"
@@ -98,6 +113,17 @@ export const ContactCustom = () => {
                                             placeholder="Tu Mensaje"
                                         />
                                     </label>
+
+                                    <div className="mb--30">
+
+                                        <ReCAPTCHA
+                                            ref = {captcha}
+                                            sitekey="6LfWTqwUAAAAAKVbT-gNWve_w79-PfpCY9ARDO36"
+                                            onChange={onChange}
+                                        />
+
+                                    </div>
+
                                     <button className="btn-default" type="submit" value="submit" name="submit" id="mc-embedded-subscribe">Enviar Ahora</button>
                                 </form>
                             </div>
