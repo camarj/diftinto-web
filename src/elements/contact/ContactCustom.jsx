@@ -31,7 +31,7 @@ export const ContactCustom = () => {
             return
         };
         
-        const response = await fetch("http://localhost:3030/send-email", { 
+        const response = await fetch("https://nodemail-webdiftinto.herokuapp.com/send-email", { 
           method: 'POST', 
           headers: { 
               'Content-type': 'application/json'
