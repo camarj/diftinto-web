@@ -45,7 +45,7 @@ const ServiceList = [
     {
         icon: <FiCpu />,
         title: 'Artificial Intelligence',
-        description: 'Convertí IA en parte integral de tu proceso de trabajo y verás más claramente sus beneficios.'
+        description: 'Convierte IA en parte integral de tu proceso de trabajo y verás más claramente sus beneficios.'
     },
 ]
 
