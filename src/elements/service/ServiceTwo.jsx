@@ -51,7 +51,7 @@ const ServiceList = [
 
 class ServiceTwo extends Component{
     render(){
-        let title = 'Qué Podemos Hacer por tí',
+        let title = 'Qué Podemos Hacer por ti',
         description = 'Tenemos amplia experiencia, ofreciendo soluciones tecnológicas de vanguardia, para muchos clientes internacionales dentro de una amplia gama de industrias,',
         subtitle= 'Qué Podemos Hacer por ti';
         return(
