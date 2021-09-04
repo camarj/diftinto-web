@@ -58,24 +58,11 @@ const ServiceList = [
     },
 ]
 
-class ServiceTwo extends Component{
+class ServiceCustom extends Component{
     render(){
-        let title = 'Qué Podemos Hacer por ti',
-        description = 'Tenemos amplia experiencia, ofreciendo soluciones tecnológicas de vanguardia, para muchos clientes internacionales dentro de una amplia gama de industrias,',
-        subtitle= 'Qué Podemos Hacer por ti';
         return(
             <React.Fragment>
                 <div className="container">
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <div className="section-title text-center">
-                                <span className="subtitle">{subtitle}</span>
-                                <h2 className="title">{title}</h2>
-                                <p className="description" dangerouslySetInnerHTML={{ __html: description }}></p>
-                            </div>
-                        </div>
-                    </div>
-
                     <div className="row">
                         <div className="col-lg-12 col-12 mt--30">
                             <div className="row service-main-wrapper">
@@ -102,4 +89,4 @@ class ServiceTwo extends Component{
         )
     }
 }
-export default ServiceTwo;
+export default ServiceCustom;

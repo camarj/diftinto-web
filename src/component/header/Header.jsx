@@ -63,14 +63,27 @@ class Header extends Component{
                             <ul className="mainmenu">
                                 <li><Link to="/">Home</Link></li>
                                 <li><HashLink smooth to="#about-section">Nosotros</HashLink></li>
-                                <li><HashLink smooth to="#service-section">Servicios</HashLink></li>
-                                <li><Link to="/contact" >Contacto</Link></li>
+                                {/* <li><HashLink smooth to="#service-section">Servicios</HashLink></li> */}
+                                <li className="has-droupdown"><Link to="#">Servicios</Link>
+                                                <ul className="submenu">
+                                                    <li><Link to="#">Responsive Design</Link></li>
+                                                    <li><Link to="/website-development">Website Development</Link></li>
+                                                    <li><Link to="#">SEO</Link></li>
+                                                    <li><Link to="#">Apps Development</Link></li>
+                                                    <li><Link to="#">Desarrollo de Software</Link></li>
+                                                    <li><Link to="#">Ultimas Tecnologías</Link></li>
+                                                    <li><Link to="#">Data Science</Link></li>
+                                                    <li><Link to="#">Analytics / Big Data</Link></li>
+                                                    <li><Link to="#">Artificial Intelligence</Link></li>
+                                                    
+                                                </ul>
+                                            </li>
                             </ul>
                         </nav>
                         <div className="header-btn">
-                            {/* <a className="btn-default btn-border btn-opacity" target="_blank" href="https://themeforest.net/checkout/from_item/31405042?license=regular">
-                                <span>Buy Now</span>
-                            </a> */}
+                            <a className="btn-default btn-border btn-opacity" target="_blank" href="/contact">
+                                <span>Contacto</span>
+                            </a>
                         </div>
                         {/* Start Humberger Menu  */}
                         <div className="humberger-menu d-block d-lg-none pl--20 pl_sm--10">

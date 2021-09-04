@@ -3,35 +3,59 @@ import { FiCast , FiLayers , FiUsers , FiMonitor } from "react-icons/fi";
 
 const ServiceList = [
     {
-        icon: <FiCast />,
-        title: 'Business Stratagy',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        icon: <FiSmartphone />,
+        title: 'Responsive Design',
+        description: 'Un sitio Web hoy se debe ver en todos los equipos y ser visitado de todos lados.',
+        link:"/responsive-desing"
     },
     {
         icon: <FiLayers />,
         title: 'Website Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        description: 'Creamos sitios Webs personalizados para ti, optimizando tiempos y costos.',
+        link:"/website-development"
     },
     {
-        icon: <FiUsers />,
-        title: 'Marketing & Reporting',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
-    },
-    { 
-        icon: <FiMonitor />,
-        title: 'Mobile App Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        icon: <FiActivity />,
+        title: 'SEO',
+        description: 'Desarrollos preparados para generar tráfico con optimización de buscadores.',
+        link:"/seo"
     },
     {
-        icon: <FiUsers />,
-        title: 'Marketing & Reporting',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
-    },
-    { 
         icon: <FiMonitor />,
-        title: 'Mobile App Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
-    }
+        title: 'Apps Development',
+        description: 'WebApps HTML5, iOs, Android y/o WebApp/PWA. Lo que necesitas, DIFTINTO lo crea.',
+        link:"/apps-development"
+    },
+    {
+        icon: <FiTerminal />,
+        title: 'Desarrollo de Software',
+        description: 'Software de gestión comercial, operativa, administrativa, contable, entre otras. ',
+        link:"/desarrollo-software"
+    },
+    {
+        icon: <FiCopy />,
+        title: 'Ultimas Tecnologías',
+        description: 'En DIFTINTO encontrarás siempre la búsqueda constante de mejoras.',
+        link:"/ultimas-tecnologias"
+    },
+    {
+        icon: <FiTrendingUp />,
+        title: 'Data Science',
+        description: 'Mejorá tu organización, predecir tendencias y anticipate al comportamiento de tus clientes.',
+        link:"/data-science"
+    },
+    {
+        icon: <FiDatabase />,
+        title: 'Analytics / Big Data',
+        description: 'Capacidad analítica como ventaja competitiva: Hacia una organización con mejor IQ.',
+        link:"/analytics-bigdata"
+    },
+    {
+        icon: <FiCpu />,
+        title: 'Artificial Intelligence',
+        description: 'Convierte IA en parte integral de tu proceso de trabajo y verás más claramente sus beneficios.',
+        link:"/artificial-intelligence"
+    },
 ]
 
 

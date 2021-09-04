@@ -13,6 +13,7 @@ import PageScrollTop from './component/PageScrollTop';
 // Dark Home Layout 
 import DarkMainDemo from './dark/MainDemo';
 import Contact from "./elements/Contact";
+import WebsiteDevelopment from "./elements/WebsiteDevelopment";
 import error404 from "./elements/error404";
 
 
@@ -27,6 +28,7 @@ class Root extends Component{
                 <PageScrollTop>
                     <Switch>
                         <Route exact path={`${process.env.PUBLIC_URL}/`} component={DarkMainDemo}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/website-development`} component={WebsiteDevelopment}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/contact`} component={Contact}/>                        
                         <Route path={`${process.env.PUBLIC_URL}/404`} component={error404}/>
                         <Route component={error404}/>
