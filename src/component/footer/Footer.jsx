@@ -71,10 +71,10 @@ class Footer extends Component{
                                     <div className="footer-link">
                                         <h4>Servicios</h4>
                                         <ul className="ft-link">
-                                        <li><HashLink smooth to="/#service-section">Web Development</HashLink></li>
-                                        <li><HashLink smooth to="/#service-section">Apps Development </HashLink></li>
-                                        <li><HashLink smooth to="/#service-section">Analytics / Big Data</HashLink></li>
-                                        <li><HashLink smooth to="/#service-section">Artificial Intelligence</HashLink></li>
+                                        <li><HashLink smooth to="/website-development">Web Development</HashLink></li>
+                                        <li><HashLink smooth to="/App-Development">Apps Development </HashLink></li>
+                                        <li><HashLink smooth to="/Analytics-BigData">Analytics / Big Data</HashLink></li>
+                                        <li><HashLink smooth to="/Artificial-Intelligence">Artificial Intelligence</HashLink></li>
                                         </ul>
                                     </div>
                                 </div>

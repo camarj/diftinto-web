@@ -14,7 +14,7 @@ const DesarrolloSoftware  = () => {
 
         <>          
         {/* Start Pagehelmet  */}
-        <PageHelmet pageTitle='Service Details' />
+        <PageHelmet pageTitle='Desarrollo de Software' />
         {/* End Pagehelmet  */}
 
         <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />

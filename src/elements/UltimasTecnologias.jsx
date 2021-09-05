@@ -14,7 +14,7 @@ const UltimasTecnologias  = () => {
 
         <>          
         {/* Start Pagehelmet  */}
-        <PageHelmet pageTitle='Service Details' />
+        <PageHelmet pageTitle='Ultimas Tecnologías' />
         {/* End Pagehelmet  */}
 
         <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />

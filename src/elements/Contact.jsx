@@ -25,7 +25,7 @@ class Contact extends Component{
     render(){
         return(
             <React.Fragment>
-                <PageHelmet pageTitle='Contact' />
+                <PageHelmet pageTitle='Contacto' />
 
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
 

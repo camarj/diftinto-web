@@ -14,7 +14,7 @@ const ArtificialIntelligence = () => {
 
         <>          
         {/* Start Pagehelmet  */}
-        <PageHelmet pageTitle='Service Details' />
+        <PageHelmet pageTitle='Artificial Intelligence' />
         {/* End Pagehelmet  */}
 
         <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />

@@ -14,7 +14,7 @@ const AnalyticsBigData  = () => {
 
         <>          
         {/* Start Pagehelmet  */}
-        <PageHelmet pageTitle='Service Details' />
+        <PageHelmet pageTitle='Analytics / Big Data' />
         {/* End Pagehelmet  */}
 
         <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />

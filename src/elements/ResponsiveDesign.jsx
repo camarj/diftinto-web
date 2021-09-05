@@ -14,7 +14,7 @@ const ResponsiveDesign  = () => {
 
         <>          
         {/* Start Pagehelmet  */}
-        <PageHelmet pageTitle='Service Details' />
+        <PageHelmet pageTitle='Responsive Design' />
         {/* End Pagehelmet  */}
 
         <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
