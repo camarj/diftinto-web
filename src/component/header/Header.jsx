@@ -66,15 +66,15 @@ class Header extends Component{
                                 {/* <li><HashLink smooth to="#service-section">Servicios</HashLink></li> */}
                                 <li className="has-droupdown"><Link to="#">Servicios</Link>
                                                 <ul className="submenu">
-                                                    <li><Link to="#">Responsive Design</Link></li>
+                                                    <li><Link to="/Responsive-Design">Responsive Design</Link></li>
                                                     <li><Link to="/website-development">Website Development</Link></li>
-                                                    <li><Link to="#">SEO</Link></li>
-                                                    <li><Link to="#">Apps Development</Link></li>
-                                                    <li><Link to="#">Desarrollo de Software</Link></li>
-                                                    <li><Link to="#">Ultimas Tecnologías</Link></li>
-                                                    <li><Link to="#">Data Science</Link></li>
-                                                    <li><Link to="#">Analytics / Big Data</Link></li>
-                                                    <li><Link to="#">Artificial Intelligence</Link></li>
+                                                    <li><Link to="/Seo">SEO</Link></li>
+                                                    <li><Link to="/App-Development">Apps Development</Link></li>
+                                                    <li><Link to="/Desarrollo-Software">Desarrollo de Software</Link></li>
+                                                    <li><Link to="/Ultimas-Tecnologias">Ultimas Tecnologías</Link></li>
+                                                    <li><Link to="/Data-Science">Data Science</Link></li>
+                                                    <li><Link to="/Analytics-BigData">Analytics / Big Data</Link></li>
+                                                    <li><Link to="/Artificial-Intelligence">Artificial Intelligence</Link></li>
                                                     
                                                 </ul>
                                             </li>

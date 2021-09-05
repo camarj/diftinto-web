@@ -6,7 +6,7 @@ const ServiceList = [
         icon: <FiSmartphone />,
         title: 'Responsive Design',
         description: 'Un sitio Web hoy se debe ver en todos los equipos y ser visitado de todos lados.',
-        link:"/responsive-desing"
+        link:"/Responsive-Design"
     },
     {
         icon: <FiLayers />,
@@ -18,43 +18,43 @@ const ServiceList = [
         icon: <FiActivity />,
         title: 'SEO',
         description: 'Desarrollos preparados para generar tráfico con optimización de buscadores.',
-        link:"/seo"
+        link:"/Seo"
     },
     {
         icon: <FiMonitor />,
         title: 'Apps Development',
         description: 'WebApps HTML5, iOs, Android y/o WebApp/PWA. Lo que necesitas, DIFTINTO lo crea.',
-        link:"/apps-development"
+        link:"/App-Development"
     },
     {
         icon: <FiTerminal />,
         title: 'Desarrollo de Software',
         description: 'Software de gestión comercial, operativa, administrativa, contable, entre otras. ',
-        link:"/desarrollo-software"
+        link:"/Desarrollo-Software"
     },
     {
         icon: <FiCopy />,
         title: 'Ultimas Tecnologías',
         description: 'En DIFTINTO encontrarás siempre la búsqueda constante de mejoras.',
-        link:"/ultimas-tecnologias"
+        link:"/Ultimas-Tecnologias"
     },
     {
         icon: <FiTrendingUp />,
         title: 'Data Science',
         description: 'Mejorá tu organización, predecir tendencias y anticipate al comportamiento de tus clientes.',
-        link:"/data-science"
+        link:"/Data-Science"
     },
     {
         icon: <FiDatabase />,
         title: 'Analytics / Big Data',
         description: 'Capacidad analítica como ventaja competitiva: Hacia una organización con mejor IQ.',
-        link:"/analytics-bigdata"
+        link:"/Analytics-BigData"
     },
     {
         icon: <FiCpu />,
         title: 'Artificial Intelligence',
         description: 'Convierte IA en parte integral de tu proceso de trabajo y verás más claramente sus beneficios.',
-        link:"/artificial-intelligence"
+        link:"/Artificial-Intelligence"
     },
 ]
 

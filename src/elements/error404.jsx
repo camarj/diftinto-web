@@ -17,7 +17,7 @@ import Footer from "../component/footer/Footer";
                             <div className="col-lg-12">
                                 <div className="inner">
                                     <h1 className="title theme-gradient">404!</h1>
-                                    <h3 className="sub-title">Page no Encontrada</h3>
+                                    <h3 className="sub-title">Página no Encontrada</h3>
                                     <span>No se pudo encontrar la página que buscaba.</span>
                                     <div className="error-button">
                                         <a className="btn-default" href="/">Regresa a la Home</a>
