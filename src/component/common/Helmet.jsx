@@ -9,7 +9,7 @@ class PageHelmet extends Component{
                 <Helmet>
                     <meta charSet="utf-8" />
                     <title>{this.props.pageTitle} || Agencia IT</title>
-                    <meta name="robots" content="noindex, follow" />
+                    <meta name="robots" content="index, follow" />
                     <meta name="description" content="Diftinto: somos diferentes al resto, te ofrecemos desarrollos, websites, apps con innovación y diseño a escala. Diftinto crea software y productos digitales que potencian." />
                     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
                 </Helmet>
